@@ -15,7 +15,7 @@
     "Role": {},
     "person": {
       "2": "{\"firstname\":\"Jane\",\"lastname\":\"Doe\",\"age\":27,\"gender\":\"F\",\"occupation\":\"Accountant\",\"id\":2}",
-      "3": "{\"firstname\":\"John\",\"lastname\":\"Doe\",\"age\":33,\"gender\":\"M\",\"occupation\":\"Scientist\",\"id\":3}"
+      "3": "{\"firstname\":\"John\",\"lastname\":\"Citizen\",\"age\":33,\"gender\":\"M\",\"occupation\":\"Scientist\",\"id\":3}"
     }
   }
 }
