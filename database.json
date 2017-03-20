@@ -5,7 +5,8 @@
     "ACL": 1,
     "RoleMapping": 1,
     "Role": 1,
-    "person": 4
+    "person": 1,
+    "adviser": 3
   },
   "models": {
     "User": {},
@@ -13,9 +14,10 @@
     "ACL": {},
     "RoleMapping": {},
     "Role": {},
-    "person": {
-      "2": "{\"firstname\":\"Jane\",\"lastname\":\"Doe\",\"age\":27,\"gender\":\"F\",\"occupation\":\"Accountant\",\"id\":2}",
-      "3": "{\"firstname\":\"John\",\"lastname\":\"Citizen\",\"age\":33,\"gender\":\"M\",\"occupation\":\"Scientist\",\"id\":3}"
+    "person": {},
+    "adviser": {
+      "1": "{\"username\":\"kwang\",\"password\":\"123\",\"id\":1}",
+      "2": "{\"username\":\"kwang\",\"password\":\"123\",\"id\":2}"
     }
   }
 }
