@@ -44,30 +44,35 @@ module.exports = function (Adviser) {
         verb: 'get'
       },
       returns: {
-        arg: 'file_read',
+        arg: 'status',
         type: 'string'
       }
     }
   );
 
-  Adviser.file_write = function (ad) {
-    var fs = require('fs');
-    fs.writeFile('kwang_test.txt', 'hello world!!!', function (err) {
-      if (err) throw err;
-    });
-    ad(null, 'Done!');
-  };
-  Adviser.remoteMethod(
-    'file_write', {
-      http: {
-        path: '/file_write',
-        verb: 'post'
-      },
-      returns: {
-        arg: 'file_write',
-        type: 'string'
-      }
-    }
-  );
+  // Adviser.file_write = function (ad, content) {
+  //   var fs = require('fs');
+  //   fs.writeFile('kwang_test.txt', content, function (err) {
+  //     if (err) throw err;
+  //     console.log(content);
+  //   });
+  //   ad(content, 'Done!');
+  // };
+  // Adviser.remoteMethod(
+  //   'file_write', {
+  //     accepts: {
+  //       arg: 'content',
+  //       type: 'object'
+  //     },
+  //     http: {
+  //       path: '/file_write',
+  //       verb: 'post'
+  //     },
+  //     returns: {
+  //       arg: 'status',
+  //       type: 'string'
+  //     }
+  //   }
+  // );
 
 };
