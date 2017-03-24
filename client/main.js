@@ -49,5 +49,5 @@ _handle_success = function (response) {
 };
 
 _handle_failure = function (XMLHttpRequest, textStatus, errorThrown) {
-  alert(textStatus + ": " + errorThrown);
+  alert(errorThrown);
 };
